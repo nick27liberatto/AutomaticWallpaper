@@ -15,7 +15,8 @@ The motivation for this program was that when I logged out and back in on my wor
 
 ## How to use
 
-1. Place the folder in a local that you wouldn't change (like C:/);
+0. Open Powershell as Administrator and insert ```Unblock-File -Path $env:USERPROFILE\THE\PATH\FOR\EACH\SCRIPT```;
+1. Place the folder in a local that you wouldn't change;
 2. Change the path value at the "wallpaper.ps1" script to where you put the folder;
 3. Open Task Scheduler;
 4. Create a new task to execute "execute-vbs.vbs".
