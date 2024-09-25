@@ -1,0 +1,8 @@
+// Possible values for wallpaper style:
+            // 0 = Tile
+            // 1 = Center
+            // 2 = Stretch
+            // 3 = Fit
+            // 4 = Fill
+            // 5 = Span (Windows 8 and later)
+            // 6 = Fit (Windows 8 and later)
